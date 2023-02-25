@@ -78,6 +78,10 @@ header {
     text-align: center;
 }
 
+.caixa1:hover {
+    background-color: var(--cor-three);
+}
+
 .caixa2 {
     background-color: var(--cor-main);
     padding: 20px;
@@ -85,9 +89,17 @@ header {
     text-align: center;
 }
 
+.caixa2:hover {
+    background-color: var(--cor-three);
+}
+
 .caixa3 {
     background-color: var(--cor-main);
     padding: 20px;
     box-shadow: 5px 5px 0px 2px black;
     text-align: center;
+}
+
+.caixa3:hover {
+    background-color: var(--cor-three);
 }
