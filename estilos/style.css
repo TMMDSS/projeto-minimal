@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500&display=swap');
 @counter-style emoji {
     system: cyclic;
-    symbols: "\1F415, \1F408, \1F407, \1F404, \1F42A, \1F98C " ;
+    symbols: "\1F69A";
 }
 
 * {
@@ -110,12 +110,70 @@ header {
 }
 
 .lista {
+    display: block;
     background-color: var(--cor-main);
-    padding: 25px;
+    padding: 20px 0px 20px 50px;
 }
 
-li {
+ul {
     list-style: inside;
     list-style: emoji;
     columns: 2;
 }
+
+.divisao {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    gap: 10px;
+    padding: 20px;
+    background-color: var(--cor-second);
+    border-bottom: 4px solid yellow;
+}
+
+.purple {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: auto;
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid red;
+    font-size: .7em;
+    font-weight: 500;
+    text-align: center;
+ 
+}
+
+.green {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 140px;
+    background-color: var(--cor-main);
+    border: 2px solid white;
+    padding: 5px;
+    font-size: .7em;
+    text-align: center;
+
+}
+
+.red {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: auto;
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+
+.red img {
+    width: 100%;
+}
+
