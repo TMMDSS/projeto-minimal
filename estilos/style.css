@@ -5,12 +5,13 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-
+    font-family: var(--fonte-padrao);
 }
 
 :root {
     --cor-main:#FFC53A;
     --cor-second:#1F271B;
+    --cor-three: #d3cdcd;
 
     --fonte-padrao: 'Saira', sans-serif;
 }
@@ -26,7 +27,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(211, 205, 205);
+    background-color: var(--cor-three);
     border-left: 5px solid black;
     height: 300px;
     min-width: 320px;
@@ -40,5 +41,49 @@ header {
     text-shadow: 1px 2px 0 black;
     box-shadow:-5px 4px 0px 10px black;
     padding: 0px 5px 0px 100px;
+    text-align: center;
+}
+
+/*main*/
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.menu > .banner-opcoes {
+    background-color: var(--cor-three);
+    margin: 15px auto 0px auto;
+    box-shadow: 1px 1px black;
+    width: 95vw;
+
+}
+
+.menu h2 {
+    background-color: var(--cor-main);
+    width: 100px;
+    border-right: 1px solid black;
+    font-weight: 400;
+}
+.caixa1 {
+    background-color: var(--cor-main);
+    padding: 20px;
+    box-shadow: 5px 5px 0px 2px black;
+    text-align: center;
+}
+
+.caixa2 {
+    background-color: var(--cor-main);
+    padding: 20px;
+    box-shadow: 5px 5px 0px 2px black;
+    text-align: center;
+}
+
+.caixa3 {
+    background-color: var(--cor-main);
+    padding: 20px;
+    box-shadow: 5px 5px 0px 2px black;
     text-align: center;
 }
