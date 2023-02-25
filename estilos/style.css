@@ -46,19 +46,13 @@ header {
 
 /*main*/
 
-.wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 150px;
-}
 
 .menu > .banner-opcoes {
     background-color: var(--cor-three);
-    margin: 15px auto 0px auto;
+    margin: 15px auto 10px auto;
     box-shadow: 1px 1px black;
     width: 95vw;
-
+    
 }
 
 .menu h2 {
@@ -67,6 +61,16 @@ header {
     border-right: 1px solid black;
     font-weight: 400;
 }
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(231, 177, 107);
+    border-bottom: 2px solid black;
+    height: 200px;
+}
+
 .caixa1 {
     background-color: var(--cor-main);
     padding: 20px;
