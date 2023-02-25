@@ -1,5 +1,10 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500&display=swap');
+@counter-style emoji {
+    system: cyclic;
+    symbols: "\1F415, \1F408, \1F407, \1F404, \1F42A, \1F98C " ;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -102,4 +107,15 @@ header {
 
 .caixa3:hover {
     background-color: var(--cor-three);
+}
+
+.lista {
+    background-color: var(--cor-main);
+    padding: 25px;
+}
+
+li {
+    list-style: inside;
+    list-style: emoji;
+    columns: 2;
 }
