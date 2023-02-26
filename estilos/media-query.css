@@ -1,6 +1,60 @@
 @charset 'utf-8';
 @media screen and (min-width: 768px) {
     header {
-        display: none;
+        background-image: url(../imagens/paz-mental-1024x680.jpg);
+        
     }
+
+    .menu > .banner-opcoes {
+        display: none;
+        background-color: var(--cor-three);
+        margin: 15px auto 10px auto;
+        box-shadow: 1px 1px black;
+        width: 50vw;
+        
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        align-content: space-around;
+        justify-content: end;
+        align-items: center;
+        background-color: #F8F9FB;
+        border-bottom: 2px solid black;
+        height: 50vh;
+        width: 95vw;
+        
+    }
+
+    .caixa1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .caixa2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .caixa3 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .caixa4 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
 }
+
