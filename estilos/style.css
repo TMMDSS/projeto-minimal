@@ -109,6 +109,17 @@ header {
     background-color: var(--cor-three);
 }
 
+.caixa4 {
+    background-color: var(--cor-main);
+    padding: 20px;
+    box-shadow: 5px 5px 0px 2px black;
+    text-align: center;
+}
+
+.caixa4:hover {
+    background-color: var(--cor-three);
+}
+
 .lista {
     display: block;
     background-color: var(--cor-main);
