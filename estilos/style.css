@@ -181,6 +181,7 @@ ul {
 
 .loimg {
     text-align: center;
+    padding: 15px;
     font-family: var(--fonte-padrao);
     color: rgb(13, 0, 128);
 }
