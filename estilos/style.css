@@ -186,12 +186,21 @@ ul {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: end;
     background-color: var(--cor-main);
     height: 150px;
+    font-size: .7em;
+
 }
 
-hr {
-    height: 4px;
+footer h3 {
+    padding-right: 20px;
+}
+
+.barra {
+    width: 100vw;
+    height: 1px;
+    background-color: black;
 }
