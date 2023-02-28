@@ -120,6 +120,22 @@ header {
     background-color: var(--cor-three);
 }
 
+.desc-caixa1 {
+    display: none;
+}
+
+.desc-caixa2 {
+    display: none;
+}
+
+.desc-caixa3 {
+    display: none;
+}
+
+.desc-caixa4 {
+    display: none;
+}
+
 .lista {
     display: block;
     background-color: var(--cor-main);
