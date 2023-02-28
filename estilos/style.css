@@ -121,7 +121,7 @@ header {
 }
 
 .desc-caixa1 {
-    display: none;
+    display: block;
 }
 
 .desc-caixa2 {

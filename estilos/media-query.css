@@ -14,6 +14,12 @@
         
     }
 
+    .wrapper1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
     .wrapper {
         display: grid;
         grid-template-columns: 2;
@@ -22,6 +28,7 @@
         justify-content: end;
         align-items: center;
         background-color: #F8F9FB;
+        background-color: red;
         border-bottom: 2px solid black;
         height: 50vh;
         width: 95vw;
