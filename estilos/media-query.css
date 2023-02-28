@@ -14,10 +14,9 @@
         
     }
 
-    .wrapper1 {
+    .main-wrapper {
         display: flex;
         flex-direction: row-reverse;
-        flex-wrap: nowrap;
     }
 
     .wrapper {
@@ -61,6 +60,11 @@
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
+    }
+    .wrapper2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 
 }
