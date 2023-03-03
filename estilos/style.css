@@ -120,19 +120,19 @@ header {
     background-color: var(--cor-three);
 }
 
-.desc-caixa1 {
-    display: block;
-}
-
-.desc-caixa2 {
+#descca1 {
     display: none;
 }
 
-.desc-caixa3 {
+#descca2 {
     display: none;
 }
 
-.desc-caixa4 {
+#descca3 {
+    display: none;
+}
+
+#descca4 {
     display: none;
 }
 
