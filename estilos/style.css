@@ -122,18 +122,24 @@ header {
 
 #descca1 {
     display: none;
+    background-color: var(--cor-main);
 }
 
 #descca2 {
     display: none;
+    background-color: var(--cor-main);
 }
 
 #descca3 {
     display: none;
+    background-color: var(--cor-main);
+
 }
 
 #descca4 {
     display: none;
+    background-color: var(--cor-main);
+
 }
 
 .lista {
