@@ -17,6 +17,7 @@
     .main-wrapper {
         display: flex;
         flex-direction: row-reverse;
+        padding: 10px;
     }
 
     .wrapper {
@@ -26,12 +27,11 @@
         align-content: space-around;
         justify-content: end;
         align-items: center;
+        margin-top: 15px;
         background-color: #F8F9FB;
-        background-color: red;
-        border-bottom: 2px solid black;
         padding-right: 90px;
         height: 50vh;
-        width: 95vw;
+        width: 100vw;
         
     }
 
@@ -66,7 +66,35 @@
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: var(--cor-main);
+        background-color: white;
+    }
+    
+    #descca1 {
+        margin-left: 50px;
+        padding: 15px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    #descca2 {
+        margin-left: 50px;
+        padding: 15px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    #descca3 {
+        margin-left: 50px;
+        padding: 15px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    #descca4 {
+        margin-left: 50px;
+        padding: 15px;
+        background-color: white;
+        border: 2px solid black;
     }
 
 }
