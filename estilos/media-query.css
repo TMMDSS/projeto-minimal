@@ -14,6 +14,12 @@
         
     }
 
+    .banner h1:hover {
+        background-color: var(--cor-three);
+        color: black;
+        cursor: pointer;
+    }
+
     .main-wrapper {
         display: flex;
         flex-direction: row-reverse;
