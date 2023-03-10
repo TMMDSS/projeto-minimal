@@ -27,11 +27,13 @@
         align-content: space-around;
         justify-content: end;
         align-items: center;
+        gap: 35px;
         margin-top: 15px;
         background-color: #F8F9FB;
         padding-right: 90px;
         height: 50vh;
         width: 100vw;
+        border: none;
         
     }
 
