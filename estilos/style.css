@@ -21,6 +21,10 @@
     --fonte-padrao: 'Saira', sans-serif;
 }
 
+body {
+    background-color: #f5fffe;
+}
+
 header {
     display: flex;
     justify-content: end;
