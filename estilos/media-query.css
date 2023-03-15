@@ -165,13 +165,30 @@
     }
 
     .loimg2 {
-        display: flex;
-        flex-direction: row-reverse;
-        
+        display: block;
     }
 
-    .loimg2 img {
-        width: 200%;
+    .secton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .loimg2 h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .secton p {
+        width: 800px;
+        border: 2px solid black;
+        padding: 20px;
+    }
+
+    .secton img {
+        width: 50%;
     }
 
 }

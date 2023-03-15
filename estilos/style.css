@@ -224,6 +224,10 @@ ul {
     color: rgb(13, 0, 128);
 }
 
+.loimg2 {
+    display: none;
+}
+
 footer {
     display: flex;
     flex-direction: column;
