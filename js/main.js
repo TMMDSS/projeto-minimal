@@ -3,6 +3,9 @@ function clickdesc1() {
         descca1.style.display = 'none'
     } else {
         descca1.style.display = 'block'
+        descca3.style.display = 'none'
+        descca2.style.display = 'none'
+        descca4.style.display = 'none'
     }
 }
 
@@ -11,6 +14,9 @@ function clickdesc2() {
         descca2.style.display = 'none'
     } else {
         descca2.style.display = 'block'
+        descca3.style.display = 'none'
+        descca4.style.display = 'none'
+        descca1.style.display = 'none'
     }
 }
 
@@ -19,6 +25,9 @@ function clickdesc3() {
         descca3.style.display = 'none'
     } else {
         descca3.style.display = 'block'
+        descca4.style.display = 'none'
+        descca2.style.display = 'none'
+        descca1.style.display = 'none'
     }
 }
 
@@ -27,5 +36,8 @@ function clickdesc4() {
         descca4.style.display = 'none'
     } else {
         descca4.style.display = 'block'
+        descca3.style.display = 'none'
+        descca2.style.display = 'none'
+        descca1.style.display = 'none'
     }
 }
