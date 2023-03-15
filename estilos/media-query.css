@@ -159,5 +159,20 @@
         background-color: white;
         border: 4mm ridge rgba(211, 220, 50, .6);
     }
+
+    .loimg {
+        display: none;
+    }
+
+    .loimg2 {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    .loimg2 img {
+        width: 200%;
+    }
+
 }
 
