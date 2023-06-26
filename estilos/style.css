@@ -127,23 +127,25 @@ header {
 #descca1 {
     display: none;
     background-color: var(--cor-main);
+    padding: 15px;
 }
 
 #descca2 {
     display: none;
     background-color: var(--cor-main);
+    padding: 15px;
 }
 
 #descca3 {
     display: none;
     background-color: var(--cor-main);
-
+    padding: 15px;
 }
 
 #descca4 {
     display: none;
     background-color: var(--cor-main);
-
+    padding: 15px;
 }
 
 .lista {
